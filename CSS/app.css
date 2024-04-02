@@ -91,7 +91,7 @@ select {
 
 body {
     font-family: var(--font-main);
-    font-size: 100%;
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1400 - 300)));
     min-height: 100vh;
     background-color: var(--black-apha);
     color: var(--gris-luminoso);
